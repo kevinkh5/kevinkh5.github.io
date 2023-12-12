@@ -6,6 +6,9 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
+baduk:
+  name: Baduk
+
 cotes:
   name: Cotes Chung
   twitter: cotes2020
