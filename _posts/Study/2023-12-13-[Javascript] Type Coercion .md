@@ -2,7 +2,7 @@
 title: '[Javascript] Type Coercion'
 author: baduk
 date: 2023-12-13 10:54:00 +0900
-categories: [Study, Javascript]
+categories: [Study, JavaScript]
 tags: [study]
 ---
 [Javascript] Type Coercion?
