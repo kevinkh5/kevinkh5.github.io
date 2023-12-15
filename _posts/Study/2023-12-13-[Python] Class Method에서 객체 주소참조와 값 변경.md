@@ -37,3 +37,40 @@ class LinkedList:
         self.length = 1
 ```
 링크드 리스트를 파이썬 코드로 구현하면 위와같이 Node라는 Class와 LikedList라는 Class를 두개 사용하는데 LinkedList Class내에서 Node라는 Class의 객체를 생성하고 그 해당 객체의 주소에 접근하면서 값을 변경하기 때문에, 그 해당 주소로 접근해서 값을 변경하면 그 해당 주소로 다시 접근했을 때 바뀐 값을 얻을 수 있는 것이다.
+
+---
+### 아래 코드를 보면서도 이해를 해볼 수 있는데,
+```python
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+    
+class MyClass:
+    def __init__(self, value):
+        node = Node(value)
+        self.x = node  # 인스턴스 변수 x를 초기화
+        
+    def update_x(self, new_value):
+        temp = self.x  # 현재 x의 값을 temp에 저장
+        temp.value = new_value  # temp의 값을 변경
+#         self.x = temp  # self.x에 temp 값을 할당하여 인스턴스 변수 x를 변경
+
+# MyClass의 인스턴스를 생성
+obj = MyClass(5)
+print(obj.x.value)
+print(obj.x)# 출력: 5
+
+obj.update_x(3)
+print(obj.x.value)
+print(obj.x)
+```
+
+```
+# Output
+5
+<__main__.Node object at 0x0000027000496340>
+3
+<__main__.Node object at 0x0000027000496340>
+```
+위 코드 12번라인부터 보면 temp에 self.x에 주소를 넣어서 그 해당하는 주소로 접근하여 value를 변경하고 있다. 출력 결과를 확인해 보면 value가 5에서 3을 변경된것을 확인할 수 있다. 하지만 주소는 그대로 '0x0000027000496340'로 유지되어 있는 것을 볼 수 있다.
