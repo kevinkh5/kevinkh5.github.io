@@ -16,7 +16,8 @@ timezone: Asia/Seoul
 
 title: 바둑's 공부방 # the main title
 
-tagline: 매일 배우기! # it will display as the sub-title
+tagline: "매일 배우고 기록하기!✍<br>현재 공부중인 것👇<br>
+  - AWS☁<br>- Algorithm⏳<br>- JavaScript📑<br>- Linux🛠<br>- Python🐍<br>"
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.

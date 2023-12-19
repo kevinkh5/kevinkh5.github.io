@@ -1,5 +1,5 @@
 ---
-title: '[JavaScript] 자바스크립트 switch문법에서 break사용'
+title: '[JavaScript] switch문법에서 break사용'
 author: baduk
 date: 2023-12-19 12:02:00 +0900
 categories: [Study, JavaScript]
