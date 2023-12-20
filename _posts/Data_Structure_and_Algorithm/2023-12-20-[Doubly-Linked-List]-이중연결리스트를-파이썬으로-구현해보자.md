@@ -3,13 +3,13 @@ title: '[Doubly Linked List] 이중연결리스트를 파이썬으로 구현해�
 author: baduk
 date: 2023-12-20 17:58:00 +0900
 categories: [Study, Data Structre and Algorithm]
-tags: [study,doubly linked list]
+tags: [study,doubly linked list, python]
 ---
 이중연결리스트를 그림으로 표현하면 다음과 같다
 
 ![photo](https://lh3.googleusercontent.com/pw/ABLVV856S-j7ixrf3-4lOik9eyri_NrrLsI6BwAWlSjicVOv0c8CmWerHvI3_wX0hJkj-BOopcSct0WVnJcAPbOlCsLCabPbsPWK40KyLSnXuF45BRtWOe9CV_30SdJWrzIdIua0rBt10veAi4RpaqZImG4=w940-h400-s-no-gm?authuser=0)
 
-이 그림대로 구현해나가면 된다.
+이 그림대로 노드가 연결되어있다고 생각하고 구현해나가면 된다. 실수로 노드 두개 모두 1을 중복해서 넣었는데 그건 일단 무시하자...
 
 ---
 ### 기본세팅
