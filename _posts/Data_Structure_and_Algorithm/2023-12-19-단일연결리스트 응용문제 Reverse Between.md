@@ -1,5 +1,5 @@
 ---
-title: '[Linked List] 응용문제 Reverse Between'
+title: '[Linked List] 단일연결리스트 응용문제 Reverse Between'
 author: baduk
 date: 2023-12-19 16:41:00 +0900
 categories: [Study, Data Structre and Algorithm]
@@ -13,7 +13,7 @@ Reverse Between 문제는 단일연결리스트로 연결된 노드가 있을때
 문제는 이 문제를 풀기는 했지만, 나랑 답이 좀 달랐다. 그리고 모범답안에 있는 답이 정말 이해하기 어려웠다. 어떻게 이러한 아이디어를 떠올릴 수 있는지 솔직히 납득이 안간다.
 
 모범답안은 아래와 같다.
-```pythons
+```python
     def reverse_between(self, start_index, end_index):
         if self.length <= 1:
             return
