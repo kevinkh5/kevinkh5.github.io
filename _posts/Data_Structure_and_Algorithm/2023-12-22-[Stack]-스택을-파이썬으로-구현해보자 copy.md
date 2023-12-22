@@ -44,7 +44,7 @@ class Stack:
 ## push 구현하기
 
 push를 구현하는 것 역시 크게 어렵지 않다. 아래 그림을 보고 이해하면 쉽게 구현할 수 있다. 1이 먼저 들어가 있다고 했었을 때, 2가 push되면 최종적으로 그림과 같이 top이 마지막으로 들어간 노드를 가리키게 된다.
-<img src = "https://lh3.googleusercontent.com/pw/ABLVV87MAogshOTEtbuZ02k2443nxRVfWM-fKgGCbEDS5bmeFrYMC7bZUgBYe2XLNA9eBrUdW30Vm7nZcKhbxYyPfbpii9r3SOcJEyQcU3DlnN0RNP73ACuXpfmNqb3KesJ7Kjm1S6aP8lqurjAX5NHbt_I=w780-h768-s-no-gm?authuser=0" width="400" height="400">
+<img src = "https://lh3.googleusercontent.com/pw/ABLVV87MAogshOTEtbuZ02k2443nxRVfWM-fKgGCbEDS5bmeFrYMC7bZUgBYe2XLNA9eBrUdW30Vm7nZcKhbxYyPfbpii9r3SOcJEyQcU3DlnN0RNP73ACuXpfmNqb3KesJ7Kjm1S6aP8lqurjAX5NHbt_I=w780-h768-s-no-gm?authuser=0" alt="push_exam" width="400" height="400">
 
 아래 코드에서도 볼 수 있듯, 만약 노드가 비어있는 stack에 push를 한다면 그냥 top이 새로운 노드를 가리키게 하면된다.
 
