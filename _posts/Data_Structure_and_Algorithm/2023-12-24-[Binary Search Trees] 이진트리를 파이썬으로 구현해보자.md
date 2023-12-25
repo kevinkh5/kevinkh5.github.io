@@ -76,6 +76,7 @@ contains메소드가 하는 일은 찾고하자 하는 노드가 있는지 없�
 
 ## 이진트리 vs 연결리스트
 추가적으로 알면 좋은것이 있는데, 이진트리는 데이터를 탐색할때 시간복잡도가 O(n)인 연결리스트에 비해서 시간복잡도가 일반적으로 O(logn)으로 굉장히 빠르다.
+(이진트리의 시간복잡도가 O(logn)이 나오는 이유가 궁금하다면? [여기클릭!](https://kevinkh5.github.io/posts/Binary-Search-Trees-%EC%9D%B4%EC%A7%84%ED%8A%B8%EB%A6%AC-%ED%83%90%EC%83%89%EC%9D%98-%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84%EA%B0%80-O(logN)%EC%9D%B8-%EC%9D%B4%EC%9C%A0/))
 
 하지만 삽입 과정에서 연결리스트의 시간 복잡도는 O(1)이고, 이진트리에서는 O(logn)다. 따라서 삽입과정은 연결리스트가 훨씬 빠르다.
 (삽입과정에서 이진트리는 best case, average case 모두 O(logn)이고  worst case는 O(n)으로 항상 O(logn)인것은 아니다. 빅오는 worst case로서 정해지므로 이진트리 삽입의 시간복잡도는 technically O(n)이다.)
