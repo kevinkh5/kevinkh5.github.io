@@ -2,7 +2,7 @@
 title: 깃헙페이지 업로드 에러 chirpy theme, ‘a’ tag is missing a reference
 author: baduk
 date: 2023-12-12 12:39:00 +0900
-categories: [Github page, Error]
+categories: [Problem solving, 에러일기]
 tags: [problem, error]
 ---
 ## 문제

@@ -2,7 +2,7 @@
 title: '한번 익숙해지면 계속 쓰고싶어지는 파이썬 filter, lambda'
 author: baduk
 date: 2023-12-14 15:45:00 +0900
-categories: [Problem solving, 바둑이의 코딩일기🧑‍💻]
+categories: [Problem solving, 코딩일기]
 tags: [코딩일기, Problem Solving]
 ---
 
