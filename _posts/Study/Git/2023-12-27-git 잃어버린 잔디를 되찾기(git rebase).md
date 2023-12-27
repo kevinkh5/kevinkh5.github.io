@@ -1,5 +1,5 @@
 ---
-title: "git 잔디가 안심어진 이유와 잃어버린 잔디 되찾기 (git rebase)"
+title: "[Git] 잔디가 안심어진 이유와 잃어버린 잔디 되찾기 (git rebase)"
 author: baduk
 date: 2023-12-27 14:04:00 +0900
 categories: [Study, Git]
