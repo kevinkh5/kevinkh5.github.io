@@ -20,7 +20,7 @@ use_math: true
 
 ![](https://lh3.googleusercontent.com/pw/ABLVV86MD22FbeW3m-HxP8X_4j0f5_-KUxYogvBl5fpzIIsd7wVN3UE3G1bSL9St3rVr0rmlcpmC4jDqZwhZADEL_uz66RUf8aUqmid8vTWo0m3Zg_jHdmE5JLKkNJaNwRYZG_-VGT8D8bGYLdrLIP4QUjs=w1984-h1114-s-no-gm?authuser=0)
 
-즉, 이 상황에서는 노드의 개수가 늘어났다고해서 시간복잡도의 영향을 주지 않는다. 따라서 이진트리에서 시간복잡도는 O(N)보다는 무조건 작다고 할 수 있다.
+즉, 이 상황에서는 노드의 개수가 늘어났다고해서 시간복잡도의 영향을 주지 않는다.(단, 차일드노드가 왼쪽 또는 오른쪽으로만 붙어서 늘어나면 시간복잡도에 직접적으로 영향을 줄 수 있다. 여기서는 차일드 노드가 왼쪽 오른쪽 골고루 붙었을 때를 말하는 것이다.) 따라서 이진트리에서 시간복잡도는 O(N)보다는 무조건 작다고 할 수 있다.
 
 이제 이진트리의 시간복잡도가 왜 수치적으로 logN인지 수식으로 한번 접근해보자. 노드의 개수(n)는 아래 그림과 같이 표현될 수 있다. 그리고 여기서 h는 높이를 뜻하는데, 이 h가 바로 최악의 경우의 시간복잡도라고 생각하면 된다. 즉 이진트리에서 최악의 경우에서의 시간복잡도는 높이(h)보다 클 수 없다.
 
