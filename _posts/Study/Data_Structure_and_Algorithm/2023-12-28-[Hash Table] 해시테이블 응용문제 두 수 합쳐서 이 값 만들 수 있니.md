@@ -1,5 +1,5 @@
 ---
-title: '[Hash Table] 해시테이블을 응용문제, 두 수 합쳐서 이 값 만들 수 있니?'
+title: '[Hash Table] 해시테이블 응용문제, 두 수 합쳐서 이 값 만들 수 있니?'
 author: baduk
 date: 2023-12-28 09:47:00 +0900
 categories: [Study, Data Structre and Algorithm]
