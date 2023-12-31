@@ -111,7 +111,7 @@ Contain메소드는 특정 노드가 트리에 포함이 되어있는지 아닌�
 
 지우고자 하는 노드를 발견하고 나서는 4가지 경우를 마주하게 된다. 아래 사진 처럼 지우고자 하는 노드가 빨간색이라고 했을 때, 1번의 경우 지우고자 하는 노드 left, right 모두 None인 경우이고, 2번은 지우고자하는 노드의 오른쪽에만 노드가 있는 경우 3번은 왼쪽에만 노드가 있는 경우, 마지막 4번은 지우고자 하는 노드의 양쪽(left, right)에 모두 노드를 가진 경우다.
 
-<img src = "https://lh3.googleusercontent.com/pw/ABLVV85HKbDENiQxcQiEumk_nrLsyHX3venfA-1xGhcIiYJX9symSXN5K8qhFfjj1cM88c8bQLn4zUThOzpzBaJ9DmqitopvV6TBNnytEaPRRiKiBEGWwnqrBeFOlSt3C8ONG05qKd76UBreNk413uBbWzg=w866-h655-s-no-gm?authuser=0" width="400" height="400">
+<img src = "https://lh3.googleusercontent.com/pw/ABLVV85HKbDENiQxcQiEumk_nrLsyHX3venfA-1xGhcIiYJX9symSXN5K8qhFfjj1cM88c8bQLn4zUThOzpzBaJ9DmqitopvV6TBNnytEaPRRiKiBEGWwnqrBeFOlSt3C8ONG05qKd76UBreNk413uBbWzg=w866-h655-s-no-gm?authuser=0" alt="exam" width="400" height="400">
 
 1번의 경우 9번 라인으로 들어가서 None을 그대로 반환하면 되고, 2번과 같이 오른쪽에만 노드를 가진 경우는 11번 라인으로 들어가서 현재 노드를 지우고자 하는 오른쪽 노드로 바꿔서 최종적으로 지워질 노드의 오른쪽 노드가 지워진 노드자리로 오도록 연결시키면 된다. 3번은 2번과 반대로 현재 노드를 지워질 노드의 왼쪽 노드로 바꿔서 같은 방식으로 처리하면 된다.
 

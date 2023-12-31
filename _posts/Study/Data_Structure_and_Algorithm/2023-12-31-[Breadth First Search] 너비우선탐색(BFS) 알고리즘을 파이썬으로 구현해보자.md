@@ -9,7 +9,7 @@ use_math: true
 ## 너비우선탐색(BFS:Breadth Frist Search)이란?
 너비우선탐색 알고리즘은 이름 그대로 너비를 우선적으로 탐색하는 알고리즘이다. 예를 들어 아래 사진과 같은 이진트리가 있으면 루트노드인 47부터 시작해서 47의 자식노드인 21, 76을 큐에 넣고 21을 꺼내면서 21의 자식노드인 18,27를 또 큐에 넣는다. 그리고 47의 오른쪽 자식이었던 76을 꺼내면서 76의 자식노드인 52와 82를 또 다시 큐에 넣는다. 그리고 큐에 들어간 나머지를 차례대로 꺼내오면서 너비우선탐색이 끝나게 될 것이다. (18,27, 52, 82는 자식노드가 없기 때문에 큐에는 더 이상 노드가 추가되어 들어가지 않을것이다.)
 
-<img src = "https://lh3.googleusercontent.com/pw/ABLVV85b8P-xV1wjk_jNMu9QkYRqm41XsYGOOC21tbNshIZfHZFZAvNTKwHkxWx5buI3EHEhAbU9KxsFPSy_wWKP9189-mYLjN0h6LmP3ny44Nvwp1NfScP6U3E9qorFWTB4ibBIqkX2NxoFOYhHLf3YnGMp=w1554-h1167-s-no-gm?authuser=0" width="400" height="400">
+<img src = "https://lh3.googleusercontent.com/pw/ABLVV85b8P-xV1wjk_jNMu9QkYRqm41XsYGOOC21tbNshIZfHZFZAvNTKwHkxWx5buI3EHEhAbU9KxsFPSy_wWKP9189-mYLjN0h6LmP3ny44Nvwp1NfScP6U3E9qorFWTB4ibBIqkX2NxoFOYhHLf3YnGMp=w1554-h1167-s-no-gm?authuser=0" alt="exam" width="400" height="400">
 
 따라서 위 이진트리의 BFS 탐색 순서는 `47 -> 21 -> 76 -> 18 -> 27 -> 52 -> 82` 가 될 것이다.
 
