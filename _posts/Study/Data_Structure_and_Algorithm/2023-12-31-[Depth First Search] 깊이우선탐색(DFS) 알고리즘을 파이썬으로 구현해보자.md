@@ -6,6 +6,9 @@ categories: [Study, Data Structre and Algorithm]
 tags: [study, Depth First Search, DFS, python, problem solving, algorithm]
 use_math: true
 ---
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2582023706445264"
+     crossorigin="anonymous"></script>
+     
 ## 깊이우선탐색(DFS)알고리즘 이란?
 깊이우선탐색 알고리즘은 이름 그대로 깊숙하게 먼저 탐색하는 알고리즘이다.
 
@@ -74,3 +77,6 @@ InOrder의 코드도 PreOrder, PostOrder와 거의 똑같다. 차이가 있다�
 
 
 이렇게 해서 너비우선탐색(DFS)알고리즘을 PreOrder(Root-Left-Right), PostOrder(Left-Right-Root), InOrder(Left-Root-Right)로 나누어 각각 파이썬으로 구현해보았다.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2582023706445264"
+     crossorigin="anonymous"></script>
