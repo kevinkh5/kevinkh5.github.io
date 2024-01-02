@@ -69,8 +69,8 @@ def insertion_sort(my_list):
 ```
 위 코드는 temp에 값을 미리 저장하고 왼쪽값이 더 클 경우 해당 위치에, 왼쪽값을 오른쪽으로 이동시키고, temp에 있는 값을 왼쪽 값에 전달해나간다. 만약 왼쪽 값이 더 작은 경우, 스위치할 필요가 없으므로 while문 반복을 시도하지 않고 다음 차례로 넘어간다. 또한 j가 -1보다 크게 될 경우에도 다음 차례로 넘어간다.
 
-## 삽입정렬의 Big O
-삽입정렬은 1 - 2 - 3 - 5 - 4 - 6 과 같이 거의 정렬된 것에 대해서 정렬할 때는 시간복잡도가 O(n)이다.
+## 정렬의 Big O
+삽입정렬은 1 - 2 - 3 - 5 - 4 - 6 과 같이 거의 정렬된 것에 대해서 정렬할 때는 시간복잡도가 $O(n)$이지만, 버블정렬과 선택정렬은 $O(n^2)$이다.
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2582023706445264"
      crossorigin="anonymous"></script>
