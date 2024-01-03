@@ -1,5 +1,5 @@
 ---
-title: '[Merge Sorts] 합병정렬을 파이썬으로 구현해보자'
+title: '[Merge Sort] 합병정렬을 파이썬으로 구현해보자'
 author: baduk
 date: 2024-01-03 11:17:00 +0900
 categories: [Study, Data Structre and Algorithm]
@@ -9,7 +9,7 @@ use_math: true
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2582023706445264"
      crossorigin="anonymous"></script>
 
-## 합병정렬(Merge Sorts)
+## 합병정렬(Merge Sort)
 합병정렬은 나열된 수 들을 반씩 쪼개어 나가면서 1개만 남을 때까지 나누고, 그것을 각각을 다시 병합하는 과정에서 정렬 해나가는 정렬 알고리즘이다.
 
 ## 합병 메소드 구현하기
