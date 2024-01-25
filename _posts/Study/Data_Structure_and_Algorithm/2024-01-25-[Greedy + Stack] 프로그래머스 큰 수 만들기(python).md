@@ -1,7 +1,7 @@
 ---
 title: '[Greedy + Stack] 프로그래머스 큰 수 만들기(python)'
 author: baduk
-date: 2024-01-24 14:21:00 +0900
+date: 2024-01-25 14:21:00 +0900
 categories: [Study, Data Structre and Algorithm]
 tags: [study, python, problem solving, algorithm]
 use_math: true
