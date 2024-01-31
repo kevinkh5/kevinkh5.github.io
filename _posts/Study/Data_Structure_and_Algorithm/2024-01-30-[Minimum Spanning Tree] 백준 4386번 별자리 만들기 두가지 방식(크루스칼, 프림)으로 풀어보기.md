@@ -1,7 +1,7 @@
 ---
 title: '[Minimum Spanning Tree] 백준 4386번 별자리 만들기 두가지 방식(크루스칼, 프림)으로 풀어보기'
 author: baduk
-date: 2024-01-29 17:36:00 +0900
+date: 2024-01-30 17:36:00 +0900
 categories: [Study, Data Structre and Algorithm]
 tags: [study, python, problem solving, algorithm]
 use_math: true
