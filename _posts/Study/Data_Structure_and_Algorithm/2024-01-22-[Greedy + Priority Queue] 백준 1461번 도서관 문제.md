@@ -6,6 +6,8 @@ categories: [Study, Data Structre and Algorithm]
 tags: [study, python, problem solving, algorithm]
 use_math: true
 ---
+출처:<https://www.acmicpc.net/problem/1461>
+
 ## 문제 간단소개
 0위치에 있는 책을 원래 자리로 되돌려야 하는데, 그때 걸어야하는 최소 걸음이 몇걸음인지 구하는 문제다. 한번 책을 옮길 때 들고갈 수 있는 책 권수가 정해져있고, 책을 되돌려 놓아야할 위치는 0보다 작거나 0보다 크다. 그리고 마지막에 책을 다 놓았다면 0위치로 돌아갈 필요없이 끝낼 수 있다.
 

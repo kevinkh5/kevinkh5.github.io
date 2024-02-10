@@ -6,6 +6,7 @@ categories: [Study, Data Structre and Algorithm]
 tags: [study, Heap, 힙, python, problem solving, algorithm]
 use_math: true
 ---
+출처:<https://www.acmicpc.net/problem/1766>
 
 ## 백준 1766번 문제집
 이 문제는 위상정렬 알고리즘을 모르면 진짜 똑똑한 천재가 아닌 이상 풀 수 없을 것 같다. 일단 위상정렬이 무엇인지 부터 알아보자

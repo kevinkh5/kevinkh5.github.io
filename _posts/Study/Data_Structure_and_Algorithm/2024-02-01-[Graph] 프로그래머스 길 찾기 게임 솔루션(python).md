@@ -6,6 +6,8 @@ categories: [Study, Data Structre and Algorithm]
 tags: [study, python, problem solving, algorithm]
 use_math: true
 ---
+출처:<https://school.programmers.co.kr/learn/courses/30/lessons/42892>
+
 ## 문제소개
 좌표로 표현한 트리를 데이터로 표현하여 전위 순회, 후위 순회에 대한 결과를 출력하는 문제
 

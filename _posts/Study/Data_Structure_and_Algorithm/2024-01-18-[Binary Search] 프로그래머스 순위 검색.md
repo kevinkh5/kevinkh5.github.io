@@ -6,6 +6,8 @@ categories: [Study, Data Structre and Algorithm]
 tags: [study, python, problem solving, algorithm]
 use_math: true
 ---
+출처:<https://school.programmers.co.kr/learn/courses/30/lessons/72412>
+
 ## 문제 간단소개
 이 문제는 info라는 인풋으로부터 데이터를 입력받고, query라는 또 다른 인풋을 입력받아 query에 해당하는 데이터와 매치하는 데이터 개수를 출력하는 문제다.
 

@@ -6,6 +6,8 @@ categories: [Study, Data Structre and Algorithm]
 tags: [study, python, problem solving, algorithm]
 use_math: true
 ---
+출처:<https://www.acmicpc.net/problem/4386>
+
 ## 문제소개
 각 별자리의 좌표(x,y)가 주어진다. 이 별자리들을 일직선으로 이었을 때 최소비용구하라.
 

@@ -6,6 +6,8 @@ categories: [Study, Data Structre and Algorithm]
 tags: [study, python, problem solving, algorithm]
 use_math: true
 ---
+출처:<https://school.programmers.co.kr/learn/courses/30/lessons/42883>
+
 ## 문제 간단소개
 어떤 숫자에서 K개 만큼 수를 제거했을 때, 나올 수 있는 최대값 구하기.
 

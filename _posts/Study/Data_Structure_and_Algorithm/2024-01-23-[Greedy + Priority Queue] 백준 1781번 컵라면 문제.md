@@ -6,6 +6,8 @@ categories: [Study, Data Structre and Algorithm]
 tags: [study, python, problem solving, algorithm]
 use_math: true
 ---
+출처:<https://www.acmicpc.net/problem/1781>
+
 ## 문제 간단소개
 문제를 맞추면 컵라면을 주는데, 데드라인이 있기 때문에, 이 데드라인을 고려하면서 최대로 받을 수 있는 컵라면 개수를 구하는 문제다.
 

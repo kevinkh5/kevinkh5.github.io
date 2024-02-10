@@ -6,6 +6,8 @@ categories: [Study, Data Structre and Algorithm]
 tags: [study, python, problem solving, algorithm]
 use_math: true
 ---
+출처:<https://school.programmers.co.kr/learn/courses/30/lessons/67259>
+
 ## 문제소개
 좌표상에 경주로를 (0,0) 부터 (n-1,n-1)까지 만드는 문제다. BFS를 활용하여 탐색하면서 진행해야한다. 단, 조건이 있다. 일직선으로 갈때 비용과 꺾일 때 비용이 다르다. 이점 고려해서 경주로 만드는 최소비용 구하기.
 

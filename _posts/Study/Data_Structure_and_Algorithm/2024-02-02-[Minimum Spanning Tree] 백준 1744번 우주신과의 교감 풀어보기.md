@@ -1,11 +1,13 @@
 ---
-title: '[Minimum Spanning Tree] 백준 1744번 우주신과의 교감 풀어보기'
+title: '[Minimum Spanning Tree] 백준 1774번 우주신과의 교감 풀어보기'
 author: baduk
 date: 2024-02-02 16:44:00 +0900
 categories: [Study, Data Structre and Algorithm]
 tags: [study, python, problem solving, algorithm]
 use_math: true
 ---
+출처:<https://www.acmicpc.net/problem/1774>
+
 ## 문제 소개
 황선자씨와 우주신들을 최소신장트리가 되도록 연결하는 문제다. 중요한 것은 미리 연결된 간선이 있어서 이부분을 빼고 신장트리로 연결해야한다.
 

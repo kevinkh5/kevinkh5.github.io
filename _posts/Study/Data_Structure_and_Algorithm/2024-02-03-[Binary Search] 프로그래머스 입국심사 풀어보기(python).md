@@ -6,6 +6,8 @@ categories: [Study, Data Structre and Algorithm]
 tags: [study, python, problem solving, algorithm]
 use_math: true
 ---
+출처:<https://school.programmers.co.kr/learn/courses/30/lessons/43238>
+
 ## 문제 소개
 기다리는 사람의 수와 입국심사관의 심사시간이 입력으로 주어졌을때 모든사람이 심사받는데 걸리는 최소시간 구하라.
 

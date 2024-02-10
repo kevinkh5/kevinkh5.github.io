@@ -8,6 +8,9 @@ use_math: true
 ---
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2582023706445264"
      crossorigin="anonymous"></script>
+
+출처:<https://www.acmicpc.net/problem/1939>
+
 ## 문제소개
 섬이 N개 있고, 섬을 연결하는 다리가 M개 있다. 다리는 최대 C만큼의 무게를 견딜 수 있다. 특정 섬에서 다른 섬으로 물건을 한번에 옮기려는데, 옮길 수 있는 최대 무게구하면 된다.
 

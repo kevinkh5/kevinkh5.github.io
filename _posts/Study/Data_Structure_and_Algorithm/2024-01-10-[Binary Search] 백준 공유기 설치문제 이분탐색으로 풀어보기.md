@@ -9,6 +9,8 @@ use_math: true
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2582023706445264"
      crossorigin="anonymous"></script>
 
+출처:<https://www.acmicpc.net/problem/2110>
+
 ## 문제소개 (가장 인접한 공유기 설치집 사이의 최대거리 구하기)
 일단, 이 문제는 공유기 설치 가능한 개수를 구하는 문제가 아니라, 공유기 개수는 이미 정해놓고, 그 개수를 만족하는 여러가지 경우 중 공유기가 설치된집 사이에서의 가장 인접한(가까운)  거리가 최대로 나오는 경우에서의 그 거리를 구하는 것이다.
 

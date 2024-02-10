@@ -6,6 +6,8 @@ categories: [Study, Data Structre and Algorithm]
 tags: [study, python, problem solving, algorithm]
 use_math: true
 ---
+출처:<https://school.programmers.co.kr/learn/courses/30/lessons/12946>
+
 ## 문제 소개
 n개의 원판을 가진 하노이의 탑을 1위치에서 3위치로 옮길때 프로세스를 리스트에 담아 리턴해라
 

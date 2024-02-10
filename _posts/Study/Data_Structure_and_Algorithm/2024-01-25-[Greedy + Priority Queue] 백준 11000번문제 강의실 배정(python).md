@@ -6,6 +6,8 @@ categories: [Study, Data Structre and Algorithm]
 tags: [study, python, problem solving, algorithm]
 use_math: true
 ---
+출처:<https://www.acmicpc.net/problem/11000>
+
 ## 문제 간단소개
 시작시간과 종료시간을 가진 각각의 수업이있다. 이 수업들을 다 진행해야할 때, 필요한 강의실의 최소개수 구해라.
 

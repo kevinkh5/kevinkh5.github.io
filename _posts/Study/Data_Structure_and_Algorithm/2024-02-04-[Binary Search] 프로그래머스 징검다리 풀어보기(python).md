@@ -6,6 +6,8 @@ categories: [Study, Data Structre and Algorithm]
 tags: [study, python, problem solving, algorithm]
 use_math: true
 ---
+출처:<https://school.programmers.co.kr/learn/courses/30/lessons/43236>
+
 ## 문제 소개
 도착지점, 바위의 위치를 담은 리스트, 제거할 바위의 수 n을 입력으로 받아서, n개의 바위를 제거했을 때 바위사이의 최소거리가 가장 큰 상황에서의 그 최소거리를 리턴해라.
 
