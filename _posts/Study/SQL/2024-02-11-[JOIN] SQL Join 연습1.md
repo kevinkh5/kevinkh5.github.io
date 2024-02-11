@@ -1,0 +1,40 @@
+---
+title: '[JOIN] SQL Join 연습1'
+author: baduk
+date: 2024-02-11 23:42:00 +0900
+categories: [Study, SQL]
+tags: [SQL]
+---
+
+## 조인하고 판매량 * 가격한 것 모두 합치기
+
+1.(정답)
+```sql
+SELECT PRODUCT_CODE, SUM((S.SALES_AMOUNT)*(P.PRICE)) AS SALES
+FROM PRODUCT P
+INNER JOIN OFFLINE_SALE S ON P.PRODUCT_ID = S.PRODUCT_ID
+GROUP BY P.PRODUCT_ID
+ORDER BY SALES DESC, PRODUCT_CODE ASC
+```
+
+2.(오답)
+```sql
+SELECT PRODUCT_CODE, (S.SALES_AMOUNT)*(P.PRICE)*COUNT(*) AS SALES
+FROM PRODUCT P
+INNER JOIN OFFLINE_SALE S ON P.PRODUCT_ID = S.PRODUCT_ID
+GROUP BY P.PRODUCT_ID
+ORDER BY SALES DESC, PRODUCT_CODE ASC
+```
+
+2번의 경우 오답이다. 그 이유는 카운트만쓰면 오프라인 세일 테이블에 있는 세일즈 어마운트 값이 뭐가 들어갔든 데이터 개수만 따져서 계산하기 때문이다. 만약 모든 세일즈 어마운트값이 1이라면 답이 될 수도 있겠지만 실제 데이터는 그럴일 없을 것이다. 이 부분 유의해야 한다.
+
+## 아우터 조인으로 두테이블 합집합으로 합치기
+LEFT OUTER JOIN TABLE_A ON FILED_A = FILED_B
+```sql
+SELECT OUTS.ANIMAL_ID, OUTS.NAME
+FROM ANIMAL_OUTS OUTS
+LEFT OUTER JOIN ANIMAL_INS INS
+ON OUTS.ANIMAL_ID = INS.ANIMAL_ID
+WHERE INS.ANIMAL_ID IS NULL
+ORDER BY OUTS.ANIMAL_ID ASC, OUTS.NAME ASC
+```
