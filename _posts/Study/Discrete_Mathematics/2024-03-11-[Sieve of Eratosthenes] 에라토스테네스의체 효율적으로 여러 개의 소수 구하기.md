@@ -59,7 +59,7 @@ def era_prime(n):
     for i in range(2,int(n**0.5)+1):
         if tf_prime[i]:
             prime.append(i)
-            for j in range(2*i,n+1,i):
+            for j in range(2*i,n+1,i): # 2*i 부터 시작하지 않고 i**2부터 시작해도 됨.
                 tf_prime[j] = False
     # 에라토스테네스의 체 테이블 만드는 동안
     # 못담은 나머지 소수인 수 리스트에 담기
