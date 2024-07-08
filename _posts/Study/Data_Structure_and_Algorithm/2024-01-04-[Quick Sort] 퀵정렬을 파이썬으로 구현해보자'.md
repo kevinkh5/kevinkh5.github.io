@@ -38,6 +38,13 @@ def pivot(my_list, pivot_index, end_index):
 
 이제 swap_index의 위치한 값은 정렬되어 더 이상 바꿔줄 필요가 없기 때문에, swap_index를 리턴하고, 앞으로 이 swap_index의 왼쪽편과 오른쪽편에 있는 수들을 정렬하도록 하여 전체적으로 정렬해나갈 수 있도록 하면 될 것이다.
 
+`추가 보충설명 2024/07/08`
+
+pivot_index가 가리키는 값보다 i가 가리키는 값이 작으면 if문내로 들어와서 swap_index += 1을 바로해준다. +1 된 swap_index가 가리키는 값은 반드시 i가 가리키는 값보다 크거나 같다. 적어도 작지는 않다.(같은값이 나온것은 자기자신이다.) (왜 그런지는 아직 설명이 어렵다... 현상이 그렇게 일어나는데, 일단 받아들이자) 그러한 값을 i랑 바꾸면, 당연히 작은 수인 i의 값은 스왑하며 swap_index의 왼쪽으로 옮겨간다. 그럼 swap_index의 왼쪽엔 pivot_index의 값보다 작은수로 몰려있을 것이다(pivot_index를 제외)
+
+최종적으로 if문 밖에서 일어나는 스왑에서는 왼쪽에있던 pivot_index가 가리키는 값과 pivot_index가 가리킨 값보다 작은 수의 개수를 가지고있는
+오른쪽에 위치한 swap_index는 서로 스왑되면서 바뀐 후 swap_index가 가리키는 값은 정렬된 정답값을 가지게 된다. swap_index를 리턴하는 이유는 swap_index가 가리키는 값이 정렬됐으니, 이후에는 swap_index를 기준으로 왼쪽 편과 오른쪽 편을 정렬하도록 하기 위함이다.
+
 
 ## Quick Sort 구현하기
 이제 위에서 구현한 Pivot을 아래 Quick Sort함수에서 사용하면된다.
