@@ -2,7 +2,7 @@
 title: '[Python] *연산자, zip 사용과 전치행렬 만들기'
 author: baduk
 date: 2024-03-16 14:24:00 +0900
-categories: [Study, Python]
+categories: [Programming Language, Python]
 tags: [Python, 파이썬, 파이썬 라이브러리]
 ---
 

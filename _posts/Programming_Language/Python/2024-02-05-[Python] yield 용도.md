@@ -2,7 +2,7 @@
 title: '[Python] yield 용도'
 author: baduk
 date: 2024-02-05 07:14:00 +0900
-categories: [Study, Python]
+categories: [Programming Language, Python]
 tags: [Python, 파이썬, 파이썬 라이브러리]
 ---
 ## yield vs return

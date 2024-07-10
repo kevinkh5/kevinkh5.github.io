@@ -2,7 +2,7 @@
 title: '[Javascript] operatior precedence'
 author: baduk
 date: 2023-12-13 07:49:00 +0900
-categories: [Study, JavaScript]
+categories: [Programming Language, JavaScript]
 tags: [JavaScript]
 ---
 

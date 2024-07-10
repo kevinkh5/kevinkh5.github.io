@@ -2,7 +2,7 @@
 title: '[JavaScript] 프린트문 안에 변수 출력하기'
 author: baduk
 date: 2023-12-19 12:25:00 +0900
-categories: [Study, JavaScript]
+categories: [Programming Language, JavaScript]
 tags: [study]
 ---
 ### [Javascript] Statements and Expressions

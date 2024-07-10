@@ -2,7 +2,7 @@
 title: '[Python] 딕셔너리 정렬, sorted, lambda 사용하여 딕셔너리 값을 기준으로 정렬하기'
 author: baduk
 date: 2024-01-01 15:43:00 +0900
-categories: [Study, Python]
+categories: [Programming Language, Python]
 tags: [Python, 파이썬]
 ---
 다음과 같은 딕셔너리가 있을 떄

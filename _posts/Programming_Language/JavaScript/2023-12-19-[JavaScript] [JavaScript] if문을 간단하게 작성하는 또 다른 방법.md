@@ -2,7 +2,7 @@
 title: '[JavaScript] 조건문을 간단하게 작성하는 또 다른 방법'
 author: baduk
 date: 2023-12-19 12:25:00 +0900
-categories: [Study, JavaScript]
+categories: [Programming Language, JavaScript]
 tags: [study]
 ---
 ### [Javascript] Ternary Operator

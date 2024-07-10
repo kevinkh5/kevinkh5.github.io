@@ -2,7 +2,7 @@
 title: "[FastAPI] FastAPI 간단한 CRUD 구현"
 author: baduk
 date: 2024-03-15 17:06:00 +0900
-categories: [Skill, FastAPI]
+categories: [Framework, FastAPI]
 tags: [Fast API]
 ---
 ## Fast API

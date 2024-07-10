@@ -2,7 +2,7 @@
 title: '[Python] 리스트 컴프리헨션(List Comprehension) 사용으로 깔끔하게 속도 높이기'
 author: baduk
 date: 2024-01-05 12:08:00 +0900
-categories: [Study, Python]
+categories: [Programming Language, Python]
 tags: [Python, 파이썬]
 ---
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2582023706445264"

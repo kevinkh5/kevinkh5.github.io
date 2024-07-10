@@ -2,7 +2,7 @@
 title: '[JavaScript] switch문법에서 break사용'
 author: baduk
 date: 2023-12-19 12:02:00 +0900
-categories: [Study, JavaScript]
+categories: [Programming Language, JavaScript]
 tags: [study]
 ---
 ### [Javascript] The switch Statement

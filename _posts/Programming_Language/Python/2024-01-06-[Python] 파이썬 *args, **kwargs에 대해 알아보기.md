@@ -2,7 +2,7 @@
 title: '[Python] 파이썬 *args, **kwargs에 대해 알아보기'
 author: baduk
 date: 2024-01-06 19:18:00 +0900
-categories: [Study, Python]
+categories: [Programming Language, Python]
 tags: [Python, 파이썬, 파이썬 문법]
 ---
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2582023706445264"

@@ -2,7 +2,7 @@
 title: "[FastAPI] uvicorn 서버 가상환경경로로 제대로 맞춰서 동작 시키기"
 author: baduk
 date: 2024-03-17 16:31:00 +0900
-categories: [Skill, FastAPI]
+categories: [Framework, FastAPI]
 tags: [Fast API]
 ---
 ## 문제상황

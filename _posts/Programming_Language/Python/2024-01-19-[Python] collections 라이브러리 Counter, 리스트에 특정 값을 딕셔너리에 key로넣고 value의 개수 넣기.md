@@ -2,7 +2,7 @@
 title: '[Python] collections 라이브러리 Counter, 리스트에 특정 값을 딕셔너리에 key로넣고 value의 개수 넣기'
 author: baduk
 date: 2024-01-19 10:22:00 +0900
-categories: [Study, Python]
+categories: [Programming Language, Python]
 tags: [Python, 파이썬, 파이썬 라이브러리]
 ---
 ```python

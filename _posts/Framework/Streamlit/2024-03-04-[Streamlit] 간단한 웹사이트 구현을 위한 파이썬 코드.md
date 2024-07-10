@@ -2,7 +2,7 @@
 title: '[Streamlit] 간단한 웹사이트 구현을 위한 파이썬 코드'
 author: baduk
 date: 2024-03-04 20:13:00 +0900
-categories: [Skill, Streamlit]
+categories: [Framework, Streamlit]
 tags: [Streamlit]
 ---
 

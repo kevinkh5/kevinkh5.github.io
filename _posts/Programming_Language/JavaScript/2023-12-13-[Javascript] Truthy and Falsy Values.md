@@ -2,7 +2,7 @@
 title: '[JavaScript] Truthy and Falsy Values'
 author: baduk
 date: 2023-12-13 12:03:00 +0900
-categories: [Study, JavaScript]
+categories: [Programming Language, JavaScript]
 tags: [study]
 ---
 ### [Javascript] Truthy and Falsy Values

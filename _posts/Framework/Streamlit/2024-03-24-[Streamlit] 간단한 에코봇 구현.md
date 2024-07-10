@@ -2,7 +2,7 @@
 title: '[Streamlit] 간단한 에코봇 구현'
 author: baduk
 date: 2024-03-24 22:16:00 +0900
-categories: [Skill, Streamlit]
+categories: [Framework, Streamlit]
 tags: [Streamlit]
 ---
 ## 에코봇

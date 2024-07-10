@@ -2,7 +2,7 @@
 title: '[Python] 파이썬 데코레이터(Decorator) 간단한 동작과정 이해해보기'
 author: baduk
 date: 2024-01-06 15:18:00 +0900
-categories: [Study, Python]
+categories: [Programming Language, Python]
 tags: [Python, 파이썬, 데코레이터, decorator, 파이썬 문법]
 ---
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2582023706445264"

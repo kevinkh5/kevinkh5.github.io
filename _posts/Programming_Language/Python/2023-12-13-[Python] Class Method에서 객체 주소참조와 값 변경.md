@@ -2,7 +2,7 @@
 title: '[Python] Class Method에서 객체 주소참조와 값 변경'
 author: baduk
 date: 2023-12-15 18:52:00 +0900
-categories: [Study, Python]
+categories: [Programming Language, Python]
 tags: [Python]
 ---
 파이썬 코드로 연결리스트를 구현하는 과정에서 조금 이해가 안가는 부분이 있었다.
