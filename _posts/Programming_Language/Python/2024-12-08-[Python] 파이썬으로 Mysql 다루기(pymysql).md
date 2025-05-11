@@ -9,6 +9,7 @@ tags: [Python, 파이썬]
 ## 임포트 pysql & DB정보 가져오기
 ```python
 import pymysql
+import os
 from dotenv import load_dotenv
 load_dotenv()
 DB_HOST = os.getenv('DB_HOST')
@@ -92,7 +93,7 @@ try:
         columns = [item[0] for item in cursor.description] # 칼럼정보에서 칼럼이름만 골라서 가져오기
         Data = pd.DataFrame(cursor.fetchall(),columns=columns)
 finally:
-    cursor.close()
+    connection.close()
 ```
 
 ## Update
