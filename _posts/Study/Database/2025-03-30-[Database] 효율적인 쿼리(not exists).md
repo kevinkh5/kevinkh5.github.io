@@ -1,5 +1,5 @@
 ---
-title: "[Database] 효율적인 쿼리에 대한 고민(not exists)"
+title: "[Database] 효율적인 쿼리에 대한 고민 not exists"
 author: baduk
 date: 2025-03-30 15:18:00 +0900
 categories: [Study, Database]
